@@ -14,7 +14,7 @@ public class Character {
     private String imageUrl;
     private List<String> episodesUrls;
     private String url;
-    private String timeCreated;
+    private String created;
 
     public Integer getId() {
         return id;
@@ -60,7 +60,7 @@ public class Character {
         return url;
     }
 
-    public String getTimeCreated() {
-        return timeCreated;
+    public String getCreated() {
+        return created;
     }
 }
