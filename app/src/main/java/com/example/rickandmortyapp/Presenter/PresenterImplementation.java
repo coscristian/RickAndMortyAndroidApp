@@ -1,8 +1,8 @@
 package com.example.rickandmortyapp.Presenter;
 
-import com.example.rickandmortyapp.Interface.InterfacesMainActivity;
+import com.example.rickandmortyapp.Interfaces.PresenterInterface;
 
-public class PresenterImplementation implements InterfacesMainActivity.Presenter {
+public class PresenterImplementation implements PresenterInterface {
     @Override
     public void searchCharacterName(String name) {
 
@@ -10,6 +10,11 @@ public class PresenterImplementation implements InterfacesMainActivity.Presenter
 
     @Override
     public void sendCharacters() {
+
+    }
+
+    @Override
+    public void sendErrorInfo(String errorCode) {
 
     }
 }

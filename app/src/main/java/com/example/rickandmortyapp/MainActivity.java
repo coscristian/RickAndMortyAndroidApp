@@ -5,9 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.rickandmortyapp.Interface.InterfacesMainActivity;
+import com.example.rickandmortyapp.Interfaces.ViewInterface;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener, InterfacesMainActivity.View {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, ViewInterface {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void showItem() {
+
+    }
+
+    @Override
+    public void showErrorInfo() {
 
     }
 }
